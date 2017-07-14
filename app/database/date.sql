@@ -1,5 +1,5 @@
-DROP TABLE IF EXISTS `date_tip`;
-CREATE TABLE `date_tip`(
+DROP TABLE IF EXISTS `article_date`;
+CREATE TABLE `article_date`(
   `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
   `date_name` VARCHAR(32) NOT NULL,
   PRIMARY KEY (`id`)
